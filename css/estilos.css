@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Cormorant+Garamond:ital,wght@1,300;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+#contenedor {
+	width: 1200px;
+	height: 2500px;
+	margin: 0 auto;
+}
+#contenedor #caja1 {
+	margin: 0 auto;
+	width: 1200px;
+	height: 180px;
+	background-color: #FA8F6D;
+	color: #FFEBCC;
+	font-family: 'Abril Fatface', cursive;
+}
+#contenedor #caja1 h5 {
+	padding: 40px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 50pt;
+}
+#contenedor #caja2 {
+	width: 1200px;
+	height: 2500px;
+	background-color: #EFD09F;
+	float: left;
+}
+#contenedor #caja2 h1 {
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: 100px;
+	margin-bottom: 0px;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 22pt;
+	color: #FFF5E6;
+}
+#contenedor #caja2 .contenedor_frase {
+	width: 1000px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: 100px;
+	margin-bottom: auto;
+	height: 330px;
+	background-color: #FFEBCC;
+}
+#caja2 .contenedor_frase .caja_dentro_de_frase {
+	width: 900px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-right: 45px;
+	padding-left: 45px;
+	padding-bottom: 30px;
+}
+#contenedor #footer {
+	width: 1200px;
+	height: 300px;
+	background-color: #722811;
+	float: left;
+}
+#h3 {
+	font-family: 'Cormorant Garamond', serif;
+}
+#contenedor #footer h6 {
+	text-align: center;
+	padding-top: 20px;
+	font-size: 30pt;
+	color: #FFEBCC;
+}
+.contenedor_frase .caja_dentro_de_frase h4 {
+	color:#678840;
+	font-size: 20pt;
+	font-family: 'Cinzel', serif;
+}
+.contenedor_frase .caja_dentro_de_frase h3 {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 21pt;
+	color: #B4401B;
+}
+.contenedor_frase .caja_dentro_de_frase h2 {
+	font-family: 'Cookie', cursive;
+	font-size: 30pt;
+	color: #FA8F6D;
+}
+
+
+nav {
+	height: 50px;
+	background-color: #950484;
+	color: #FFFFFF;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+nav ul li {
+	display: inline;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+a:link{
+	color:#81C0FC;
+	text-decoration:none;
+	font-weight: bolder;
+}
+a:visited{
+	color: #FF9A17;
+	text-decoration:none;
+	font-weight: bolder;
+}
+a:active{
+	color:#A9FB75;
+	text-decoration: none;
+	font-weight: bolder;
+}
+a:hover{
+	color:#10F900;
+	font-weight: bolder;
+	text-decoration: none;
+}

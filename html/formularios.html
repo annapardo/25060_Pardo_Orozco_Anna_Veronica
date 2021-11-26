@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formularios</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+</head>
+<!--Shortcut de estructura genral: (header>h1)+(nav>(ul>(li*5)))+(main>((section>(h2+p))*4))+(footer>h5)-->
+<body>
+<header>
+	<h1>Formularios</h1>
+</header>
+<nav>
+	<ul>
+		<li><a href="../index.html">Index</a></li>
+		<li><a href="mi_primera_pagina.html">Mi primera página</a></li>
+		<li><a href="fuentes.html">Fuentes</a></li>
+		<li><a href="listas.html">Listas</a></li>
+		<li><a href="tablas.html">Tablas</a></li>
+		<li><a href="enlaces.html">Enlaces</a></li>
+		<li><a href="imagenes.html">Imágenes</a></li>
+		<li><a href="audio.html">Audios</a></li>
+		<li><a href="video.html">Videos</a></li>
+		<li><a href="formularios.html">Formularios</a></li>
+		<li><a href="animaciones.html">Animaciones</a></li>
+		<li><a href="flexbox.html">Flexbox</a></li>
+		<li><a href="mediaquerys.html">Mediaquerys</a></li>
+	</ul>
+</nav>
+<main>
+	<section>
+		<h2>Formulario simple</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic et nemo impedit aperiam error sint, nihil voluptatem. Sequi, nobis, molestiae.</p>
+		<form action="action_page.html" method="get">
+			<label>Nombre</label>
+			<input type="text" id="Nombre" name="nombre"><br>
+			<label>Apellidos</label>
+			<input type="text" id="Apellidos" name="Apellidos"><br>
+			<input type="submit" value="Enviar">
+		</form>
+	</section>
+	<section>
+		<h2>Formulario usando radiobutton</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, consequatur.</p>
+		<form id="datos1" name="datos1" action="action_page.html" method="get">
+			<label for="textfield">Nombre:</label>
+			<input type="text" name="nombre" id="nombre"><br>
+			<label for="apellidos">Apellidos:</label>
+			<input type="text" name="apellidos" id="apellidos"><br>
+			<label>Género&nbsp;</label>
+			<input name="genero" type="radio" id="radio" title="genero" value="femenino">
+			<label for="genero">Femenino&nbsp;</label>
+			<input name="genero" type="radio" id="radio2" title="genero" value="masculino">
+			<label for="genero">Masculino&nbsp;</label>
+			<input name="submit" type="submit" id="submit" formmethod="GET" value="Enviar">
+		</form>
+		
+	</section>
+	<section>
+		<h2>Formulario organizado dentro de una tabla</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum beatae quia eaque alias laudantium? Eum!</p>
+		<form action="action_page.html" method="get">
+			<table width="50%" border="0">
+				<tbody>
+					<tr>
+						<td><label for="nombre">Nombre:</label></td>
+						<td><input type="text" id="nombre" name="nombre"></td>
+					</tr>
+					<tr>
+						<td><label for="apellidos">Apellidos:</label></td>
+						<td><input type="text" id="apellidos" name="apellidos"></td>
+					</tr>
+					<tr>
+						<td><label for="edad">Edad:</label></td>
+						<td><input type="number" id="edad" name="edad" min="1" max="99"></td>
+					</tr>
+					<tr>
+						<td><input type="submit" value="Enviar"></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+		
+	</section>
+	<section>
+		<h2>Formulario usando checkbox y otros</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum sunt, iste cumque possimus nulla commodi.</p>
+	  <form id="datos1" name="datos1" action="action_page.html" method="get">
+			<label for="nombre">Nombre:</label><br>
+			<input type="text" name="nombre" id="nombre"><br>
+			<label for="apellidos">Apellidos:</label><br>
+			<input type="text" name="apellidos" id="apellidos"><br>
+			<label>Género&nbsp;</label><br>
+			<input name="genero" type="radio" id="radio" title="genero" value="femenino">
+			<label for="genero">Femenino&nbsp;</label><br>
+			<input name="genero" type="radio" id="radio2" title="genero" value="masculino">
+			<label for="genero">Masculino&nbsp;</label><br>
+			<input name="submit" type="submit" id="submit" formmethod="GET" value="Enviar">
+		<p>
+				<label>Elige el género musical que más te guste</label><br>
+				<label><input type="checkbox" name="musicafavorita" value="pop" id="musicafavorita_0">Pop</label>
+				<br>
+				<label><input type="checkbox" name="musicafavorita" value="pop" id="musicafavorita_1">Rock</label>
+				<br>
+				<label><input type="checkbox" name="musicafavorita" value="pop" id="musicafavorita_2">Clásica</label>
+				<br>
+				<label><input type="checkbox" name="musicafavorita" value="pop" id="musicafavorita_3">Jazz</label>
+				<br>
+				<label><input type="checkbox" name="musicafavorita" value="pop" id="musicafavorita_4">Soul</label>
+				<br>
+		  <label for="select">Select:</label>
+				<select name="select" id="select">
+					<option>Argentina</option>
+					<option>Chile</option>
+					<option value="">Francia</option>
+					<option value="">Lituania</option>
+					<option value="">Mexico</option>
+				</select>
+				
+				<input name="submit" type="submit" id="submit" formmethod="GET" value="Enviar">
+		  </p>
+		</form>
+	</section>
+</main>
+<footer>
+	<h5>Elaborado Por Anna Verónica Pardo Orozco</h5>
+</footer>
+</body>
+</html>

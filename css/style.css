@@ -1,0 +1,266 @@
+body header   , section, footer,main,nav{
+	background-color: #FFCCFE;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	width: 80%;
+}
+header , h1{
+	background-color: #FFEBCC;
+	font-size: 48px;
+	text-align: center;
+	color: #950484;
+}
+main {
+	background-color:#D8B57D;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+header {
+	height: auto;
+}
+nav {
+	height: auto;
+	background-color: #950484;
+	color: #FFFFFF;
+}
+nav ul li {
+	display: inline;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+footer  {
+	color: #FFFFFF;
+	background-color: #950484;
+	height: 100px;
+	text-align: center;
+}
+body nav ul {
+	text-align: center;
+}
+section {
+	height: auto;
+	background-color: #FFEBCC;
+	border: 5px dashed #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+main section h2 {
+	padding: 10px;
+	font-style: italic;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+#link-1 {
+}
+a:link{
+	color:#81C0FC;
+	text-decoration:none;
+	font-weight: bolder;
+}
+a:visited{
+	color: #FF9A17;
+	text-decoration:none;
+	font-weight: bolder;
+}
+a:active{
+	color:#A9FB75;
+	text-decoration: none;
+	font-weight: bolder;
+}
+a:hover{
+	color:#10F900;
+	font-weight: bolder;
+	text-decoration: none;
+}
+#picture_1 {
+	height: 200px;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border: 10px inset #FFCCFE;
+}
+#picture_2 {
+	float: right;
+	display: inline;
+	margin: 10px;
+	height: auto;
+	width: 30%;
+}
+#picture_3 {
+	height: 200px;
+}
+#gif {
+	height: auto;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+.parrafo {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+h2 {
+	font-style: normal;
+	font-family: lobster;
+	font-weight: 400;
+}
+#arboles {
+	width: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 40px;
+	margin-bottom: 10px;
+}
+#arboles2 {
+	width: 40%;
+	display: block;
+	margin-left: auto;
+	border-radius: 40px 40px 90px;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+#arboles3 {
+	width: 40%;
+	display: block;
+	margin-left: auto;
+	border-radius: 120px;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+.girasol {
+	width: 40%;
+	margin: 10px;
+	display: inline-block;
+}
+.im_blur {
+	filter: blur(3px);
+}
+.img_brillo {
+	filter: brightness(150%);
+}
+.img_contrast {
+	filter: contrast(130%);
+}
+.img_grises {
+	filter: grayscale(100%);
+}
+.img_invert {
+	filter: invert(100%);
+}
+.img_opacidad {
+	filter: opacity(30%);
+}
+.img_saturation {
+	filter: saturate(300%);
+}
+.img_sepia {
+	filter: sepia(90%);
+}
+#picture_1 {
+}
+.img_blur {
+}
+.video_size {
+	width: 50%;
+	height: auto;
+	display: block;
+	padding-left: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.gato {
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.video_youtube {
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.kawaii2 {
+}
+
+input[type=text],input[type=number]{
+	background-color:#F8BDCB;
+	color: #370E0F;
+	width: 50%;
+	margin: 10px;
+	padding: 10px;
+	font-size: 18px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+label{
+	font-size: 18px;
+	color: #950484;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+}
+input[type=submit]{
+	background-color: aquamarine;
+	width: 150px;
+	height: 40px;
+	padding: 10px;
+	margin:10px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 30px;
+}
+select,select option{
+	background-color:#F8BDCB;
+	color: #370E0F;
+	width: 50%;
+	margin: 10px;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.parrafo_formulario, label{
+	font-size: 18px;
+	color: #4C2804;
+}
+#edad{
+	background-color:#F8BDCB;
+	color: #370E0F;
+	width: 50%;
+	margin: 10px;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+#pais{
+	background-color:#F8BDCB;
+	color: #370E0F;
+	width: 50%;
+	margin: 10px;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.navegador {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+

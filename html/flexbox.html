@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="../css/style_flexbox.css" rel="stylesheet" type="text/css">
+</head>
+
+<!--Shortcut de estructura genral: (header>h1)+(nav>(ul>(li*5)))+(main>((section>(h2+p))*4))+(footer>h5)-->
+
+<body>
+<header>
+	<h1>Flexbox</h1>
+</header>
+<nav>
+	<ul>
+		<li><a href="../index.html">Index</a></li>
+		<li><a href="mi_primera_pagina.html">Mi primera página</a></li>
+		<li><a href="fuentes.html">Fuentes</a></li>
+		<li><a href="listas.html">Listas</a></li>
+		<li><a href="tablas.html">Tablas</a></li>
+		<li><a href="enlaces.html">Enlaces</a></li>
+		<li><a href="imagenes.html">Imágenes</a></li>
+		<li><a href="audio.html">Audios</a></li>
+		<li><a href="video.html">Videos</a></li>
+		<li><a href="formularios.html">Formularios</a></li>
+		<li><a href="animaciones.html">Animaciones</a></li>
+		<li><a href="flexbox.html">Flexbox</a></li>
+		<li><a href="mediaquerys.html">Mediaquerys</a></li>
+	</ul>
+</nav>
+<main>
+	<section>
+  		<h2>Contenedores flexibles básicos</h2>
+	  	<div class="contenedor-flexible">
+	  		<div>1</div>
+	  		<div>2</div>
+	  		<div>3</div>
+	  	</div>
+	</section>
+	<section>
+  		<h2>Propiedad flex-direction se usa para modificar la dirección de apilamiento de las cajas:column, row, column-reverse, row-reverse</h2>
+	  	<div class="contenedor-flexible-1">
+	  		<div>1</div>
+	  		<div>2</div>
+	  		<div>3</div>
+	  		<div>4</div>
+	  	</div>
+	</section>
+	<section>
+		<h2>Propiedad flex-wrap se usa para especificar si deben ajustarse los elementos flexibles o no: wrap, no-wrap, wrap-reverse</h2>
+		<div class="contenedor-flexible-2">
+			<div>1</div>
+	  		<div>2</div>
+	  		<div>3</div>
+	  		<div>4</div>
+	  		<div>5</div>
+	  		<div>6</div>
+	  		<div>7</div>
+	  		<div>8</div>
+	  		<div>9</div>
+		</div>
+	</section>
+	<section>
+		<h2>Propiedad justify-content se usa para alinear los eleemntos flexibles (horizontalmente): flex-end, flex-start, center, space-around, space-between</h2>
+		<div class="contenedor-flexible-3">
+			<div>1</div>
+	  		<div>2</div>
+	  		<div>3</div>
+		</div>
+	</section>
+	<section>
+		<h2>Propiedad align-items alinea los elementos visibles verticalmente (stretch va con height: auto;)</h2>
+		<div class="contenedor-flexible-4">
+			<div>1</div>
+	  		<div>2</div>
+	  		<div>3</div>
+		</div>
+		<h3>Baseline</h3>
+		<div class="contenedor-flexible-5">
+			<div><h7>1</h7></div>
+	  		<div><h6>2</h6></div>
+	  		<div><h3>3</h3></div>
+	  		<div><h5>4</h5></div>
+	  		<div><h4>5</h4></div>
+	  		<div><h4>6</h4></div>
+		</div>
+	</section>
+	<section>
+		<h2>Propiedad align-content permite distribuir el espacio verticalmente: flex-end, flex-start, center, space-around, space-between</h2>
+		<div class="contenedor-flexible-6">
+			<div>1</div>
+	  		<div>2</div>
+	  		<div>3</div>
+	  		<div>4</div>
+	  		<div>5</div>
+	  		<div>6</div>
+	  		<div>8</div>
+	  		<div>9</div>
+	  		<div>10</div>
+	  		<div>11</div>
+	  		<div>12</div>
+		</div>
+	</section>
+	<section>
+		<h2>Alineado perfecto</h2>
+		<div class="contenedor-flexible-7">
+			<div>1</div>
+		</div>
+	</section>
+</main>
+<footer>
+	<h5></h5>
+</footer>
+</body>
+</html>

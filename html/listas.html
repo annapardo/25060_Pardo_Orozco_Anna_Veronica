@@ -1,0 +1,230 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Listas en html</title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+		}
+		dt{
+		font-weight:bold;
+		font-size:24px;
+		color:darkblue;
+		}
+		h1{
+			font-size:48px;
+			color:antiquewhite;
+		}
+		h2,h3{
+			font-size:25px;
+			color:#F987BD
+		}
+		header,main,nav,div,footer{
+			width:960px;
+			/*height:100px;*/
+			background-color:#342150;
+			padding:50px;
+			margin: 0 auto;
+		}
+		header{
+			text-align: center;
+		}
+		nav{
+			background-color:#AE6694;
+			height:10px;
+		}
+		main{
+			background-color:blanchedalmond;
+			height:auto;
+		}
+		footer{
+			background-color:#342150;
+			height:60px;
+		}
+		section{
+			width:760px;
+			height:auto;
+			background-color:aliceblue;
+			margin:20px auto;
+			padding:20px 20px;
+		}
+		ul,ol{
+			margin:50px;
+		}
+		dl{
+			margin:20px;
+		}
+		dt{
+			margin:10px;
+		}
+		dd{
+			margin:20px 30px;
+		}	
+		footer{
+			text-align: center;
+			color:antiquewhite;
+		}
+		
+		nav {
+	height: 90px;
+	background-color: #950484;
+	color: #FFFFFF;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+nav ul li {
+	display: inline;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+nav{
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	width: 80%;
+}
+a:link{
+	color:#81C0FC;
+	text-decoration:none;
+	font-weight: bolder;
+}
+a:visited{
+	color: #FF9A17;
+	text-decoration:none;
+	font-weight: bolder;
+}
+a:active{
+	color:#A9FB75;
+	text-decoration: none;
+	font-weight: bolder;
+}
+a:hover{
+	color:#10F900;
+	font-weight: bolder;
+	text-decoration: none;
+}
+	</style>
+</head>
+
+<body>
+	<header> 
+		<h1>LISTAS EN HTML</h1>
+	</header>
+	<nav>
+	<ul>
+		<li><a href="../index.html">Index</a></li>
+		<li><a href="mi_primera_pagina.html">Mi primera página</a></li>
+		<li><a href="fuentes.html">Fuentes</a></li>
+		<li><a href="listas.html">Listas</a></li>
+		<li><a href="tablas.html">Tablas</a></li>
+		<li><a href="enlaces.html">Enlaces</a></li>
+		<li><a href="imagenes.html">Imágenes</a></li>
+		<li><a href="audio.html">Audios</a></li>
+		<li><a href="video.html">Videos</a></li>
+		<li><a href="formularios.html">Formularios</a></li>
+		<li><a href="animaciones.html">Animaciones</a></li>
+		<li><a href="flexbox.html">Flexbox</a></li>
+		<li><a href="mediaquerys.html">Mediaquerys</a></li>
+	</ul>
+</nav>
+	<main>
+		<section>
+		  <h2>Lista desordenada o de viñetas</h2>
+			<ul>
+				<li>México</li>
+				<li>España</li>
+				<li>Argentina</li>
+				<li>Guatemala</li>
+				<li>Italia</li>
+			</ul>
+		</section>
+		<section>
+		  <h2>Lista ordenada o con viñeta numerada</h2>
+			<ol>
+				<li>México</li>
+				<li>España</li>
+				<li>Argentina</li>
+				<li>Guatemala</li>
+				<li>Italia</li>
+			</ol>
+		</section>
+		<section>
+		  <h2>Lista mixta</h2>
+			<ul>
+				<li>México
+					<ol>
+						<li>Puebla</li>
+						<li>Veracruz</li>
+						<li>Baja California</li>
+						<li>Oaxaca</li>
+					</ol>
+				</li>
+				<li>España
+					<ol>
+						<li>Madrid</li>
+						<li>Sevilla</li>
+						<li>Barcelona</li>
+					</ol>
+				</li>
+				<li>Argentina
+					<ol>
+						<li>Puebla</li>
+						<li>Veracruz</li>
+						<li>Baja California</li>
+						<li>Oaxaca</li>
+					</ol>
+				</li>
+				<li>Guatemala
+					<ol>
+						<li>Puebla</li>
+						<li>Veracruz</li>
+						<li>Baja California</li>
+						<li>Oaxaca</li>
+					</ol>
+				</li>
+				<li>Italia
+					<ol>
+						<li>Puebla</li>
+						<li>Veracruz</li>
+						<li>Baja California</li>
+						<li>Oaxaca</li>
+					</ol>
+				</li>
+			</ul>
+		</section>
+		<section>
+		  <h3>Lista de descripcion</h3>
+			<dl>
+			<dt><b>Hosting</b></dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit non, sapiente cumque. Ducimus quidem facere error enim, vitae autem veritatis, fugit, eaque deserunt laboriosam dolorum
+			</dd>
+			<dt style="font-style:italic">Dominio</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit non, sapiente cumque. Ducimus quidem facere error enim, vitae autem veritatis, fugit, eaque deserunt laboriosam dolorum
+			</dd>
+			<dt style="font-weight:normal">Sistema Web</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat eum commodi fugit unde aliquam, quod harum assumenda dolores in nemo a sequi autem necessitatibus deleniti!</dd>
+			<dt>Pagina web</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit non, sapiente cumque. Ducimus quidem facere error enim, vitae autem veritatis, fugit, eaque deserunt laboriosam dolorum
+			</dd>
+			</dl>
+		</section>
+		<section>
+			<h2>Lista con viñeta de imágen</h2>
+			<ul style="list-style-image:url(../flor.png)">
+				<li>Maria Gomez</li>
+				<li>Veronica Oropiña</li>
+				<li>Juan Hernandez </li>
+				<li>Daniel Osorio</li>
+				<li>Mónica Pérez</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<h4>Elaborado por Anna Verónica Pardo Orozco</h4>
+	</footer>
+</body>
+</html>
